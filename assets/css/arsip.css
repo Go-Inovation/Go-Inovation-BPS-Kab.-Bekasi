@@ -1,0 +1,87 @@
+/* Custom styles from original arsip.html that might be needed if not in main.css */
+/* It's better to move these to main.css if they are globally applicable or specific to arsip page sections */
+.arsip-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  justify-items: center;
+  padding: 10px 0 30px 0;
+}
+
+.arsip-grid .card {
+  background: white;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(33, 150, 243, 0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.arsip-grid .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(33, 150, 243, 0.13);
+}
+
+.arsip-grid .card img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  margin-bottom: 18px;
+}
+
+.arsip-grid .card h3 {
+  margin: 10px 0 5px;
+  color: #2196f3;
+  font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.arsip-grid .card p {
+  color: #555;
+  font-size: 0.97rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  margin-bottom: 0;
+}
+
+/* Responsive adjustments for the grid */
+@media (max-width: 991px) {
+  .arsip-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .arsip-grid .card {
+    padding: 25px 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .arsip-grid {
+    grid-template-columns: 2fr;
+    gap: 18px;
+  }
+
+  .arsip-grid .card {
+    padding: 20px 10px;
+  }
+
+  .arsip-grid .card h3 {
+    font-size: 1rem;
+  }
+
+  .arsip-grid .card p {
+    font-size: 0.9rem;
+  }
+}

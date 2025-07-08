@@ -1,0 +1,89 @@
+/* Custom styles from original kepegawaian.html that might be needed if not in main.css */
+/* It's better to move these to main.css if they are globally applicable or specific to kepegawaian page sections */
+.category-title {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.08rem;
+  margin-bottom: 18px;
+  color: #2196f3;
+  /* Consider using var(--accent-color) or similar if defined in main.css */
+  letter-spacing: 0.5px;
+  font-family: "Poppins", sans-serif;
+  /* Ensure Poppins is loaded or use template fonts */
+}
+
+.card-custom {
+  background-color: #ffffff;
+  border: 1px solid #e3eaf1;
+  border-radius: 14px;
+  padding: 22px 18px;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: box-shadow 0.3s, transform 0.2s;
+  box-shadow: 0 2px 12px rgba(33, 150, 243, 0.06);
+  margin-bottom: 18px;
+  /* Default, can be overridden by mb-3 etc. */
+  color: #222;
+  font-family: "Poppins", sans-serif;
+  /* Ensure Poppins is loaded or use template fonts */
+}
+
+.card-custom:hover {
+  box-shadow: 0 8px 24px rgba(33, 150, 243, 0.13);
+  transform: translateY(-4px) scale(1.03);
+}
+
+.card-custom i {
+  font-size: 2.5rem;
+  margin-bottom: 13px;
+  color: #2196f3;
+  /* Consider using var(--accent-color) */
+  display: block;
+}
+
+.card-custom h6 {
+  font-size: 1.08rem;
+  margin-bottom: 6px;
+  color: #2196f3;
+  /* Consider using var(--accent-color) */
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  /* Ensure Poppins is loaded or use template fonts */
+  letter-spacing: 0.2px;
+}
+
+.card-custom p {
+  font-size: 0.97rem;
+  color: #222;
+  margin-bottom: 0;
+  font-family: "Poppins", sans-serif;
+  /* Ensure Poppins is loaded or use template fonts */
+  font-weight: 400;
+  letter-spacing: 0.1px;
+}
+
+.kompetensi-section {
+  margin-top: 56px;
+}
+
+.kompetensi-section h2 {
+  font-size: 1.4rem;
+  /* Or match section titles from main.css */
+  color: #2196f3;
+  /* Consider using var(--accent-color) */
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  /* Ensure Poppins is loaded or use template fonts */
+}
+
+.kompetensi-section p {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 28px;
+  font-family: "Poppins", sans-serif;
+  /* Ensure Poppins is loaded or use template fonts */
+}

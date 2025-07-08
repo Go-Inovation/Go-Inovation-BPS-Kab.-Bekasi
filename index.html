@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>BPS Kabupaten Bekasi</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <!-- Favicons -->
+  <link href="assets/img/logo/foto.png" rel="icon" />
+  <link href="assets/img/logo/foto.png" rel="apple-touch-icon" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+  <!-- CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet" />
+  <link href="assets/css/index.css" rel="stylesheet" />
+  <link href="assets/css/inovasi.css" rel="stylesheet" />
+</head>
+
+<body class="index-page">
+  <!-- Header -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Tambahkan logo di sini -->
+        <img src="assets/img/logo/foto.png" alt="Logo GO-INOVATION" />
+        <h1 class="sitename mb-0">GO-INOVATION</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li>
+            <a class="nav-link scrollto active" href="index.html#main">Beranda</a>
+          </li>
+          <li>
+            <a class="nav-link scrollto" href="about.html">Tentang Kami</a>
+          </li>
+          <li class="dropdown">
+            <a href="#"><span>Inovasi</span>
+              <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li class="dropdown">
+                <a href="inovasi_nasional.html"><span>Inovasi Nasional</span></a>
+              </li>
+              <li class="dropdown">
+                <a href="inovasi.html"><span>Inovasi Kabupaten Bekasi</span></a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="nav-link scrollto active" href="#contact">Kontak</a>
+          </li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- Main Content-->
+  <main class="main" id="main">
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+      <img src="assets/img/logo/BPSGedung.png" alt="Gedung BPS" class="img-fluid w-100" data-aos="fade-in" />
+
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <!-- Gambar logo hanya tampil di md ke atas -->
+          <div class="col-md-3 d-none d-md-flex justify-content-center">
+            <img src="assets/img/logo/foto.png" alt="Logo GO-INOVATION" class="img-fluid"
+              style="width: 220px; object-fit: contain" />
+          </div>
+
+          <!-- Teks -->
+          <div class="col-md-9 col-12">
+            <div class="text-md-start text-center">
+              <h1 class="mb-2" style="font-size: 2rem; font-weight: 500" data-aos="fade-up" data-aos-delay="300">
+                <b>GO-INOVATION</b>
+              </h1>
+              <h1 class="mb-5" style="font-size: 2rem; font-weight: 500" data-aos="fade-up" data-aos-delay="300">
+                <b>Circle Goverment Inovation </b>
+              </h1>
+              <p class="fw-bold mb-3" style="font-size: 1.3rem; line-height: 1.2" data-aos="fade-up"
+                data-aos-delay="400">
+                <b>BPS KABUPATEN BEKASI</b><br />
+                TERDEPAN : Terpercaya, Berdedikasi, Pantang Menyerah.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Inovasi Section -->
+    <section id="about" class="about section">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2>Inovasi BPS Kabupaten Bekasi</h2>
+        </div>
+        <div class="row g-4 justify-content-center">
+          <!-- CARD 1: MONBRIA -->
+          <div class="col-6 col-md-4 col-lg-2 d-flex">
+            <div class="innovation-card-custom text-center w-100" data-bs-toggle="modal"
+              data-bs-target="#monbriaModalLabel" style="cursor: pointer">
+              <div class="image-circle-wrapper mb-2">
+                <img src="assets/img/cover-logo/monbria.png" alt="MONBRIA" class="circle-img img-fluid" />
+              </div>
+              <div>
+                <div class="innovation-title">MONBRIA</div>
+                <div class="innovation-desc">Monday Briefing Ceria</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal MONBRIA -->
+          <div class="modal fade" id="monbriaModalLabel" tabindex="-1" aria-labelledby="monbriaModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-md">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="monbriaModalLabel">MONBRIA</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                  <p>
+                    <strong>Tujuan :</strong> Menciptakan wadah bertukar informasi dan aspirasi di lingkup BPS Kabupaten
+                    Bekasi sehingga mendorong perubahan pola pikir dan budaya kerja positif.
+                    <a href="https://drive.google.com/file/d/1kDrBJu1gpIF-6N9RJ6mPNH3ECgMqM4CP/view?usp=sharing"
+                      class="text-primary">Selengkapnya...</a>
+                  </p>
+                  <img src="assets/img/cover-logo/monbria.png" alt="Preview MONBRIA"
+                    class="img-fluid rounded mb-3 shadow" style="width: 40%; height: auto" />
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <a href="https://drive.google.com/drive/folders/1zLMvG0khzwEgzgdyoqx722T1Y59Uxt9E?usp=drive_link"
+                    class="btn btn-sm btn-primary">
+                    Buka Drive
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 2: QTP -->
+          <div class="col-6 col-md-4 col-lg-2 d-flex">
+            <div class="innovation-card-custom text-center w-100" data-bs-toggle="modal" data-bs-target="#qtpModalLabel"
+              style="cursor: pointer">
+              <div class="image-circle-wrapper mb-2">
+                <img src="assets/img/cover-logo/qtp.png" alt="QTP" class="circle-img img-fluid" />
+              </div>
+              <div>
+                <div class="innovation-title">QTP</div>
+                <div class="innovation-desc">Quarterly Top Performance</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal QTP -->
+          <div class="modal fade" id="qtpModalLabel" tabindex="-1" aria-labelledby="qtpModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-md">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="qtpModalLabel">QTP</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                  <p>
+                    <strong>Tujuan :</strong> Meningkatkan kinerja pegawai dengan mendorong mereka untuk bekerja secara
+                    profesional, efektif, dan efisien serta memberikan apresiasi dan motivasi kepada pegawai yang telah
+                    memberikan kontribusi terbaik bagi organisasi.
+                    <a href="https://drive.google.com/file/d/1Z0ESWuzgYV-lYmlwgqj4A7Do4964Z2Qf/view?usp=sharing"
+                      class="text-primary">Selengkapnya...</a>
+                  </p>
+                  <img src="assets/img/cover-logo/qtp.png" alt="Preview QTP" class="img-fluid rounded mb-3 shadow"
+                    style="width: 40%; height: auto" />
+                </div>
+
+                <div class="modal-footer justify-content-center">
+                  <a href="https://drive.google.com/drive/folders/1upO0ESjb-f_X0C4D8vURbbbI0JtDBrr3?usp=drive_link"
+                    class="btn btn-sm btn-primary">
+                    Buka Drive
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 3: BERLIAN -->
+          <div class="col-6 col-md-4 col-lg-2 d-flex">
+            <div class="innovation-card-custom text-center w-100" data-bs-toggle="modal"
+              data-bs-target="#berlianModalLabel" style="cursor: pointer">
+              <div class="image-circle-wrapper mb-2">
+                <img src="assets/img/cover-logo/berlian.png" alt="BERLIAN" class="circle-img img-fluid" />
+              </div>
+              <div>
+                <div class="innovation-title">BERLIAN</div>
+                <div class="innovation-desc">Berbagi Ilmu Antar Teman</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal BERLIAN -->
+          <div class="modal fade" id="berlianModalLabel" tabindex="-1" aria-labelledby="berlianModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-md">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="berlianModalLabel">BERLIAN</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                  <p>
+                    <strong>Tujuan :</strong>
+                  <ol class="text-start"">
+              <li>Menyebarluaskan data strategis ke seluruh Pegawai BPS Kabupetan Bekasi.</li>
+              <li>Memberikan informasi, pengetahuan berbagai hal yang cepat ke seluruh Pegawai BPS Kabupetan Bekasi.</li>
+              <li>Memberikan semangat, inpirasi ke seluruh Pegawai BPS Kabupetan Bekasi.</li>
+            </ol>
+            <a href=" https://drive.google.com/file/d/1c3IQBQrCjw2do_3zVzAKY2gwrkQ-exxq/view?usp=sharing"
+                    class="text-primary">Selengkapnya...</a>
+                    </p>
+                    <img src="assets/img/cover-logo/berlian.png" alt="Preview BERLIAN"
+                      class="img-fluid rounded mb-3 shadow" style="width: 40%; height: auto" />
+                </div>
+
+                <div class="modal-footer justify-content-center">
+                  <a href="https://drive.google.com/drive/folders/1rH_jcbNayOuof5OEOvtctvUM7OaxZt1B?usp=drive_link"
+                    class="btn btn-sm btn-primary">
+                    Buka Drive
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 4: B-COMPLEX -->
+          <div class="col-6 col-md-4 col-lg-2 d-flex">
+            <div class="innovation-card-custom text-center w-100" data-bs-toggle="modal"
+              data-bs-target="#bcomplexModalLabel" style="cursor: pointer">
+              <div class="image-circle-wrapper mb-2">
+                <img src="assets/img/cover-logo/bcomplex.png" alt="B-COMPLEX" class="circle-img img-fluid" />
+              </div>
+              <div>
+                <div class="innovation-title">B-COMPLEX</div>
+                <div class="innovation-desc" style="font-size: 0.8rem">
+                  Bersama Berbuat Baik Bersih Berbenah Bugar Botram
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal B-COMPLEX -->
+          <div class="modal fade" id="bcomplexModalLabel" tabindex="-1" aria-labelledby="bcomplexModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-md">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="bcomplexModalLabel">B-COMPLEX</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                  <p>
+                    <strong>Tujuan :</strong>
+                    Menciptakan kegiatan-kegiatan kebersamaan yang positif yang diharapkan tercipta suasana kerja yang
+                    harmonis
+                    dan pelayanan semakin baik.
+                    <a href="https://drive.google.com/file/d/1mTEVnxPMHx8Ca8gSi6jqDk7gsiHlEqTs/view?usp=sharing"
+                      class="text-primary">Selengkapnya...</a>
+                  </p>
+                  <img src="assets/img/cover-logo/bcomplex.png" alt="Preview B-COMPLEX"
+                    class="img-fluid rounded mb-3 shadow" style="width: 40%; height: auto" />
+                </div>
+
+                <div class="modal-footer justify-content-center">
+                  <a href="https://drive.google.com/drive/folders/1xsBWeit_Uf91R3SXWlAaSw_aAPayTQrD?usp=drive_link"
+                    class="btn btn-sm btn-primary">
+                    Buka Drive
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 5: SISIDAT -->
+          <div class="col-6 col-md-4 col-lg-2 d-flex">
+            <div class="innovation-card-custom text-center w-100" data-bs-toggle="modal"
+              data-bs-target="#sisidatModalLabel" style="cursor: pointer">
+              <div class="image-circle-wrapper mb-2">
+                <img src="assets/img/cover-logo/sisidat.png" alt="SISIDAT" class="circle-img img-fluid" />
+              </div>
+              <div>
+                <div class="innovation-title">SISIDAT</div>
+                <div class="innovation-desc">
+                  Sistem Informasi Data Terintegrasi
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal SISIDAT -->
+          <div class="modal fade shadow" id="sisidatModalLabel" tabindex="-1" aria-labelledby="sisidatModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-md">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="sisidatModalLabel">SISIDAT</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                  <p class="mb-4">
+                    <strong>Tujuan :</strong>
+                    Mengumpulkan dan menyatukan data/informasi BPS Kabupaten Bekasi, sehingga pengguna dapat mengakses
+                    informasi
+                    yang lengkap dan menyeluruh.<a
+                      href="https://drive.google.com/file/d/1CjFEoTcM3qIFt3CIkZtX2Jvt94avigyr/view?usp=sharing"
+                      class="text-primary">
+                      Selengkapya...</a>
+                  </p>
+                  <img src="assets/img/cover-logo/sisidat.png" alt="Preview SISIDAT"
+                    class="img-fluid rounded mb-3 shadow" style="width: 40%; height: auto" />
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <a href="https://sites.google.com/view/sisidatbpskabbekasi/home?authuser=0"
+                    class="btn btn-sm btn-primary">
+                    Aplikasi
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 6: Selengkapnya -->
+          <div class="col-6 col-md-4 col-lg-2 d-flex">
+            <a href="inovasi.html" class="w-100 text-decoration-none">
+              <div class="innovation-card-custom text-center">
+                <div class="image-circle-wrapper mb-2 bg-light d-flex justify-content-center align-items-center">
+                  <i class="bi bi-arrow-right fs-3"></i>
+                </div>
+                <div>
+                  <div class="innovation-title">Selengkapnya</div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Inovasi Section -->
+
+    <!-- Aplikasi Section -->
+    <div class="aplication-section container my-5 mb-5">
+      <div class="text-center mb-4">
+        <h2>Inovasi Nasional</h2>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <!-- Kartu 1 -->
+        <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+          <a href="http://simpeg.bps.go.id/" style="text-decoration: none">
+            <div class="app-card text-center text-white h-100 p-3 rounded shadow">
+              <img src="assets/img/logo/simpeg.jpeg" alt="SIMPEG" class="img-fluid mb-3 rounded" />
+              <hr />
+              <div class="h5 fw-bold">SIMPEG–BPS</div>
+              <p class="small badge bg-danger">Akses VPN</p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Kartu 3 -->
+        <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+          <a href="https://sipecut.bps.go.id/app/" style="text-decoration: none">
+            <div class="app-card text-center text-white h-100 p-3 rounded shadow">
+              <img src="assets/img/logo/sipecut.jpg" alt="SIPECUT" class="img-fluid mb-3 rounded" />
+              <hr />
+              <div class="h5 fw-bold">SIPECUT–BPS</div>
+              <p class="small badge bg-danger">Akses VPN</p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Kartu 5 -->
+        <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" style="text-decoration: none">
+            <div class="app-card text-center text-white h-100 p-3 rounded shadow">
+              <img src="assets/img/logo/kipapp.jpg" alt="Kip App" class="img-fluid mb-3 rounded" />
+              <hr />
+              <div class="h5 fw-bold">Kip App</div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Modal Kip App -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Kip App
+                </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="assets/img/logo/kipapp.jpg" alt="Kip App" class="img-fluid mb-3 rounded" />
+              </div>
+              <div class="modal-footer justify-content-center">
+                <a href="https://webapps.bps.go.id/kipapp/#/auth/login" class="btn btn-sm">Aplikasi Kip App</a>
+                <a href="https://sites.google.com/view/skp2025/halaman-muka" class="btn btn-sm">Upload Dokumentasi</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+          <a href="inovasi_nasional.html" style="text-decoration: none">
+            <div class="app-card text-center text-white h-100 p-3 rounded shadow">
+              <div class="icon-circle-custom mt-4" style="color: #000000; background: #ffffff">
+                <i class="bi bi-arrow-right icon-animate"></i>
+              </div>
+              <hr />
+              <div class="h5 fw-bold">Selengkapnya</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section dark-background">
+      <img src="assets/img/logo/BPSGedung.png" class="testimonials-bg" alt="Background Gedung BPS" />
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+              <div class="row justify-content-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Krido Saptono.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Krido Saptono</h6>
+                    <small class="text-light">Kepala BPS Kabupaten Bekasi</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Irwanto.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Irwanto</h6>
+                    <small class="text-light">Statistisi Ahli Madya</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Wawan Kusmawan.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Wawan Kusmawan</h6>
+                    <small class="text-light">Kasubag Umum</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Agustiana.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Agustiana</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Andryan Anjarsari.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Andryan Anjarsari</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Anis Ichwan.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Anis Ichwan</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+              <div class="row justify-content-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Annisa Rahmah Nur Salapiah.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">
+                      Annisa Rahmah Nur Salapiah
+                    </h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Avinna Fitriyanti.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Avinna Fitriyanti</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Bastian Komara.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Bastian Komara</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Dessy Ariany Effendy.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Dessy Ariany Effendy</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Dyah Puspita Sari.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Dyah Puspita Sari</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Elmi Sukmawati.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Elmi Sukmawati</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+              <div class="row justify-content-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Eman Sulaeman.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Eman Sulaeman</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <!-- Tambahkan pegawai lain di sini jika ada -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Fathurrohman.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Fathurrohman</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Fitria Nur Diana.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Fitria Nur Diana</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Gresia Safitri Simamora.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Gresia Safitri Simamora</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Ichsan Patrice Saputra.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">ichsan Patrice Saputra</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Irma Korimah.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Irma Korimah</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 4 -->
+            <div class="swiper-slide">
+              <div class="row justify-content-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Irwan Irawan.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Irwan Irawan</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Irwanto Adi Nugroho.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Irwanto Adi Nugroho</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Jajang Sudrajat.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Jajang Sudrajat</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Lusiyanti.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Lusiyanti</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Mochamad Ridwan.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Mochamad Ridwan</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Moh.Agus Budiutama.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Moh Agus Budiutama</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 5 -->
+            <div class="swiper-slide">
+              <div class="row justify-content-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Muhammad Ismail.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Muhammad Ismail</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Nana Prihatna.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Nana Prihatna</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Novhi Aprianti.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Novhi Aprianti</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Pandu Permana.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Pandu Permana</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Rengga Adhy Pratama.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Rengga Adhy Pratama</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Yulia Puspitasari.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Yulia Puspitasari</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 6 -->
+            <div class="swiper-slide">
+              <div class="row justify-content-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Yuningsih Damanik.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Yuningsih Damanik</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Riefky Hanny Wiendarto.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Riefky Hanny Wiendarto</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Rosi.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Rosi</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Sebih.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Sebih</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Sunanul Huda.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Sunanul Huda</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Tamad Nasrullah.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Tamad Nasrullah</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 7 -->
+            <div class="swiper-slide">
+              <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Tri Wulandari.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Tri Wulandari</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 mb-4">
+                  <div class="testimonial-item text-center">
+                    <img src="assets/img/pegawai/Yustiana Eva Ariningtyas.png" class="testimonial-img mb-2" alt="" />
+                    <h6 class="mb-0 text-white">Yustiana Eva Ariningtyas</h6>
+                    <small class="text-light">Pegawai</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Navigasi -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+    <!-- End Testimonials Section -->
+
+    <script>
+      // Swiper dengan efek geser ke samping (slide), bukan fade
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30, // Jarak antar slide
+        loop: true,
+        autoplay: {
+          delay: 3000, // 3 detik antar slide
+          disableOnInteraction: false,
+        },
+        speed: 700, // Transisi antar slide
+        effect: "slide", // Efek geser ke samping
+        // Tidak perlu fadeEffect di sini!
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          576: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 1,
+          },
+          992: {
+            slidesPerView: 1,
+          },
+        },
+      });
+    </script>
+  </main>
+  <!-- End Main Content -->
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact section">
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Contact</h2>
+      <p class="text-light">
+        Hubungi kami untuk informasi lebih lanjut atau kunjungi kantor kami di
+        alamat berikut.
+      </p>
+    </div>
+    <!-- End Section Title -->
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row gy-4 align-items-stretch">
+        <!-- Kolom Kiri: Alamat dengan Map -->
+        <div class="col-lg-6">
+          <div
+            class="info-item d-flex flex-column justify-content-center align-items-center h-100 p-4 rounded-4 shadow contact-card"
+            data-aos="fade-up" data-aos-delay="200">
+            <i class="bi bi-geo-alt contact-icon"></i>
+            <h3 class="mb-3">Address</h3>
+            <p class="text-center mb-3" style="color: #000">
+              Badan Pusat Statistik Kabupaten Bekasi<br />
+              Komplek Perkantoran Pemda Kabupaten Bekasi<br />
+              Kota Deltamas, Cikarang Pusat<br />
+              Bekasi<br />
+              Jawa Barat - Indonesia
+            </p>
+            <div class="w-100 rounded-3 overflow-hidden" style="
+                  min-height: 180px;
+                  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+                ">
+              <iframe src="https://www.google.com/maps?q=Badan+Pusat+Statistik+Kabupaten+Bekasi&output=embed"
+                width="100%" height="180" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kolom Kanan: Kontak & Jam Buka -->
+        <div class="col-lg-6">
+          <div class="row gy-4 h-100">
+            <!-- Call Us -->
+            <div class="col-md-6">
+              <div
+                class="info-item d-flex flex-column justify-content-center align-items-center h-100 p-4 rounded-4 shadow contact-card"
+                data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone contact-icon"></i>
+                <h3>Call Us</h3>
+                <a href="tel:+622189970329" class="contact-link">+62 21 89970329</a>
+              </div>
+            </div>
+            <!-- Email Us -->
+            <div class="col-md-6">
+              <div
+                class="info-item d-flex flex-column justify-content-center align-items-center h-100 p-4 rounded-4 shadow contact-card"
+                data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope contact-icon"></i>
+                <h3>Email Us</h3>
+                <a href="mailto:bps3216@bps.go.id" class="contact-link">bps3216@bps.go.id</a>
+              </div>
+            </div>
+            <!-- Opening Hours -->
+            <div class="col-md-12">
+              <div
+                class="info-item d-flex flex-column justify-content-center align-items-center h-100 p-4 rounded-4 shadow contact-card"
+                data-aos="fade-up" data-aos-delay="500">
+                <i class="bi bi-clock-fill contact-icon"></i>
+                <h3>Opening Hours</h3>
+                <ul class="list-unstyled text-center mb-0">
+                  <li>
+                    <span style="color: #000; font-weight: 600">Senin – Kamis:</span>
+                    <span style="color: #000000">07.30 – 16.00 WIB</span>
+                  </li>
+                  <li>
+                    <span style="color: #000; font-weight: 600">Jumat:</span>
+                    <span style="color: #000000">08.00 – 16.30 WIB</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- End row dalam col-lg-6 kanan -->
+        </div>
+        <!-- End col-lg-6 kanan -->
+      </div>
+      <!-- End row utama -->
+    </div>
+    <!-- End container -->
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <footer id="footer" class="footer dark-background">
+    <div class="container copyright text-center mt-4">
+      <p>
+        © <span>Copyright</span>
+        <strong class="px-1 sitename">GO-INOVATION</strong>
+        <span>All Rights Reserved</span>
+      </p>
+      <div class="credits">
+        Designed by
+        <a href="#"><strong style="font-family: 'Courier New', Courier, monospace">R&G</strong></a>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      loop: true,
+      autoplay: {
+        delay: 3000, // Ganti sesuai kecepatan yang diinginkan
+        disableOnInteraction: false,
+      },
+      effect: "fade", // Efek transisi animasi
+      fadeEffect: {
+        crossFade: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
+</html>
